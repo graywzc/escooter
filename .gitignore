@@ -1,0 +1,116 @@
+# Buck
+.buckconfig.local
+.buckd
+.buckjavaargs.local
+.bucklogging.local.properties
+.okbuck
+3rdparty/jvm
+BUCK
+!tooling/ci/release/**/BUCK
+!tooling/ui_test/BUCK
+!tooling/ci/coverage/BUCK
+!tooling/ci/motd/BUCK
+!tooling/ci/phabricator/BUCK
+!tooling/ci/repository/staging_switcher/BUCK
+!tooling/ci/test/**/BUCK
+!tooling/ci/thrift-validation/BUCK
+!tooling/ci/ui-test/**/BUCK
+!tooling/intellij/vmoptions/BUCK
+!tooling/local-analytics/BUCK
+!tooling/local-analytics/wrapper/BUCK
+!tooling/program-analysis/javac-proxy/BUCK
+!tooling/python/**/BUCK
+!tooling/resource-move/**/BUCK
+!apps/atg/idl/models/BUCK
+!thrift-models/genrules/testdata/BUCK
+!thrift-models/realtime/**/BUCK
+
+buck-out
+build
+build-ij
+
+# Checkstyle
+checkstyle*.xml
+
+# CI
+.phabricator-comment*
+.phabricator-lint*
+.rx-thread-checker-errors
+performance.trace
+rosetta.log
+
+# Crashlytics
+.crashlytics_data
+com_crashlytics_export_strings.xml
+crashlytics-build.properties
+
+# Generated
+generated
+**/*.astubx
+tooling/buck-defs/jarinfer_libs_list
+
+# Gradle
+.gradle
+
+# Intellij
+*.iml
+.idea/*
+**/.idea/**
+!.idea/.requiredPresidioPluginVersion
+!.idea/.hexReplaceInputFiles
+!.idea/codeStyleSettings.xml
+!.idea/codeStyles/Project.xml
+!.idea/codeStyles/codeStyleConfig.xml
+!.idea/uber/uberPluginConfig.properties
+!.idea/uber/uberPluginConfig.xml
+!.idea/inspectionProfiles/profile_settings.xml
+!.idea/inspectionProfiles/UberInspections.xml
+!.idea/vcs.xml
+local.properties
+/captures
+
+# Misc
+*.orig
+*.rej
+*.pyc
+.DS_Store
+*.swp
+**/FieldTranslationData.json
+
+# Sublime
+*.sublime-workspace
+
+# Engdocs
+docs/_build
+docs/contents
+env_docs*
+*.pyc
+*.pickle
+
+# UI Test
+test_output
+**/androidTest/assets/tests/summary.json
+apps/presidio/tooling/ui-test-converter/src/test/resource/json/**/*.java
+apps/presidio/tooling/ui-test-converter/src/test/**/*.class
+
+# Reliability scripts
+tooling/experimental/reliability/crash_recovery_sanity/.idea/*
+
+# NDK Build
+*.externalNativeBuild
+
+# Crashlytics resources
+**/com_crashlytics_build_id.xml
+**/crashlytics-build.properties
+
+# Editor
+*~
+
+#Lock Files
+*.lck
+
+# VertX Webserver Cache
+.vertx/
+
+# java heap dumps
+*.hprof

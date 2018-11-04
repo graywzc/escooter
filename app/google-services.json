@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "563924567263",
+    "firebase_url": "https://escooter-220822.firebaseio.com",
+    "project_id": "escooter-220822",
+    "storage_bucket": "escooter-220822.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563924567263:android:29b5e15669160959",
+        "android_client_info": {
+          "package_name": "me.trudeal.escooter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563924567263-9pdbr7nhibnf2v988e30og99uqanacgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4I459jJvT2VUk6um1Gama5mcnQoLoxKE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
